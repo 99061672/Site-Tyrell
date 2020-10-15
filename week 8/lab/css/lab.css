@@ -1,0 +1,73 @@
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: center;
+  grid-gap: 1px; 
+  }
+
+.menu{
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+
+.banner{
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+
+.commando{
+  padding-right: 10px;
+  padding-top: 10px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 3;
+}
+
+.griepvaccin{
+  padding-right: 10px;
+  padding-top: 10px;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 4;
+  grid-row-end: 4;
+}
+
+.max{
+  padding-right: 10px;
+  padding-top: 10px;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 3;
+}
+
+.zon{
+  padding-right: 10px;
+  padding-top: 10px;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 4;
+}
+
+.schandaal{
+  padding-right: 10px;
+  padding-top:10px;
+  grid-column-start: 3;
+  grid-column-end:4;
+  grid-row-start: 4;
+  grid-row-end: 4;
+}
+
+.netbinnen{
+  padding-right: 10px;
+  padding-top: 10px;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 5;
